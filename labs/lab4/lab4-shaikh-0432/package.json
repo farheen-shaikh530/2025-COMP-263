@@ -1,0 +1,18 @@
+{
+  "name": "lab4-redis-cache",
+  "version": "1.0.0",
+  "type": "module",
+ "scripts": {
+  "seed": "node seed.js",
+  "dev": "NODE_ENV=development node src/server.js",
+  "start": "node src/server.js"
+},
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ioredis": "^5.3.2",
+    "mongodb": "^6.3.0",
+    "morgan": "^1.10.0"
+  }
+  
+}
